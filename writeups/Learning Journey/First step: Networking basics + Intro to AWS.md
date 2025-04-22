@@ -43,4 +43,53 @@ In summary, DevSecOps combines the practice of rapid development, continuous int
 
 ## Cybersecurity
 
+The main topics to refresh for cybersecurity are the OSI Model, TCP/IP basics, ports, and firewalls.
+
+The recommended video to watch is [Professor Meyer's Network Fundamentals](https://www.professormesser.com/network-plus/n10-006/network-fundamentals/).
+The fundamental of the network is encapsulation and decapsulation. 
+Encapsulation: The application data is first wrapped by a TCP header (Transmission Control Protocol), then an IP header (Internet Protocol), followed by the frame header and frame trailer.
+Decapsulation is just the reverse of encapsulation.
+
+Sending traffic across a network uses either a baseband network or a broadband network. 
+
+#### Baseband Network
+
+- Generally, a single cable with a digital signal, either copper or fiber.
+- Communication signal uses all the bandwidth (either 100% or 0% utilization rate).
+- Can be bidirectional, but not at the same time using the same wire or fiber.
+- Ethernet standard
+  - 100BASE-T, 1000BASE-T
+    
+#### Broadband Network
+
+- Sending signals over different frequencies.
+  - Multiple signals, multiple traffic types.
+- Multiple simultaneous communication channels over the frequency spectrum
+- Bidirectional communication in which sending uses one frequency and receiving uses another frequency.
+- Internet, VOIP are examples.
+
+#### Baud Rate vs Bit Rate
+
+| Feature | Bit Rate | Baud Rate |
+|---------|----------|-----------|
+|What it measures |Number of bits transmitted per second|Number of signal changes per second|
+|Units|bits per second (bps)|baud|
+|Relationship|Can be equal to or greater than baud rate|Always less than or equal to bit rate|
+
+Analogy, freight train.
+Baud Rate: number of train carriages.
+Bit Rate: number of passengers.
+
+#### Wavelength
+
+- A wavelength is the length where the sine wave is repeating.
+- Higher frequencies have shorter wavelengths
+  - A 2.4GHz has a wavelength of 12cm
+  - Smaller wavelengths need smaller antennas
+- Ethernet over fibers use a very small wavelength (we are talking about hundreds or thousandths of nm)
+
+### OSI Model
+
+
+
 ## Cloud/DevOps
