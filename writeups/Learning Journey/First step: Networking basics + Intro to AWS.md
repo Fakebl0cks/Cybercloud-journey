@@ -139,4 +139,38 @@ The mnemonic to remember is that "all people seem need data processing."
 
 - The layer we see
 
-## Cloud/DevOps
+### Ports
+
+> Port is a logical address of a 16-bit unsigned integer that is allotted to every application on the computer that uses the internet to send or receive data.
+
+So, ports is basically the specific address on your machine that data is delivered to. Think of it as your house address and the mac address or ip address as the post office.
+When we send parcel, it goes to the specific post office that is tasked for our area and then it delivers to your home address. Similarly, it is data to ip address to port.
+
+There are three categories of port:
+1. Well Known Port
+2. Registered port
+3. Dynamic Port
+
+Well known port are reserved from 0 to 1023 and is usually tied to important services such as HTTP(port 80), FTP(port 21), DNS(Port 53), etc.
+
+Registered port are reserved from 1024 to 49151 and are used by applications or services that are not as common.
+But it is used by those applications or services which require its specific port.
+Organizations can ask IANA(Internet Assigned Number Authority) for any specific port number within this range.
+
+Dynamic port are reserved from 49152 to 65535
+- It is also known as Ephemeral or Private Port
+- It is used for those connections that are temporary or short-lived
+- It is not registered or assigned and can be used by any process
+
+### Firewall
+
+> A firewall is a network security device either hardware or software-based which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects, or drops that specific
+> traffic. It acts like a security guard that helps keep your digital world safe from unwanted visitors and potential threats.
+
+- Accept: allow the traffic
+- Reject: block the traffic but reply with an “unreachable error”
+- Drop: block the traffic with no reply
+
+A network traffic (whether incoming or outgoing) is matched against the rules or policies of the tables, and it will be accepted, rejected, or dropped depending state of the traffic itself.
+
+There are a lot of types of firewalls, which I will be delving deeper into in the subsequent period of time if needed to.
