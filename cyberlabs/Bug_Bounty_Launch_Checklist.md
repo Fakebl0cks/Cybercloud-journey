@@ -55,5 +55,3 @@
 - Twitter hashtags: #bugbountytips, #infosec, #ethicalhacking
 
 ---
-
-Would you like this checklist delivered as PDF, Notion board, or GitHub Markdown starter template?
