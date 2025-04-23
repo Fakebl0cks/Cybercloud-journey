@@ -174,3 +174,33 @@ Dynamic port are reserved from 49152 to 65535
 A network traffic (whether incoming or outgoing) is matched against the rules or policies of the tables, and it will be accepted, rejected, or dropped depending state of the traffic itself.
 
 There are a lot of types of firewalls, which I will be delving deeper into in the subsequent period of time if needed to.
+
+## [Attack Surfaces](https://www.sentinelone.com/cybersecurity-101/cybersecurity/types-of-attack-surface/)
+
+> An attack surface in cybersecurity can also be described as the different vectors through which an attacker can attempt to breach a system or gain unauthorized access to or steal data from it.
+
+### Types of attack surface
+
+#### Digital Attack Surface
+
+- Web Apps
+- APIs
+- Cloud Services & IoT
+
+#### Physical Attack Surface
+
+- Endpoints: passwords or cookies may be stored in laptops, desktops or other mobile devices.
+- Servers
+- Lost/Stolen Devices
+
+#### Human Attack Surface
+
+- Insider Threats
+- Phishing
+- Weak Passwords
+
+#### Social Engineering Attack Surface
+
+- Manipulation
+- Pretexting
+- Baiting
