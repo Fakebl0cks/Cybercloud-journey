@@ -88,8 +88,55 @@ Bit Rate: number of passengers.
   - Smaller wavelengths need smaller antennas
 - Ethernet over fibers use a very small wavelength (we are talking about hundreds or thousandths of nm)
 
-### OSI Model
+### [OSI Model](https://www.professormesser.com/network-plus/n10-006/understanding-the-osi-model/)
 
+> Open Systems Interconnection Reference Model
 
+It's a guide or guidelines, and not to be confused with OSI Protocol Suite. There are unique protocols at each layers.
+The mnemonic to remember is that "all people seem need data processing."
+
+| Layer 7: Application | Layer 6: Presentation | Layer 5: Transport | Layer 4: Session | Layer 3: Network | Layer 2: Data Link | Layer 1: Physical |
+|---------|----------|-----------|---------|----------|-----------|-----------|
+
+#### Layer 1: Physical
+
+- The physics of the network
+  - Signaling, cables, connectors.
+  - Not about protocols.
+- More on the hardware problem.
+
+#### Layer 2: Data Link
+
+- Data Link Control (DLC) Protocol
+  - Media Access Control (MAC) address on Ethernet
+- also referred to as the "switching" layer
+
+#### Layer 3: Network
+
+- The "Routing" layer
+- IP (Internet Protocol)
+- Fragment frames to traverse different networks
+
+#### Layer 4: Session
+
+- The "Post-office" layer
+- Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)
+
+#### Layer 5: Transport
+
+- Set up communication between devices
+- It will start the communication flow, maintain the communication flow, and ultimately stop the communication flow between those devices.
+- Also, set up a half duplex or full duplex connection between those devices.
+- Might also include things like control protocols or tunneling protocols
+
+#### Layer 6: Presentation
+
+- Character encoding
+- Application encryption and decryption (SSL/TSL)
+- Often combined with layer 7 because of how closely they are integrated.
+
+#### Layer 7: Application
+
+- The layer we see
 
 ## Cloud/DevOps
